@@ -1,0 +1,23 @@
+---
+title: "PolarBear"
+output: html_document
+---
+
+# Polar Bears Rock
+## They are big and strong
+### Total badasses
+
+These are good polar bear names:
+
+* Joe
+* Tony
+* George
+* Peter
+
+column 1 | column 2 
+--- | ---
+black | white
+hot | cold
+
+<img src="polarbear.jpg" width="300" />
+
