@@ -1,11 +1,11 @@
 ---
-title: "PolarBear"
+title: "PolarBears"
 output: html_document
 ---
 
 # Polar Bears Rock
 ## They are big and strong
-### Total badasses
+### Intimidating predators
 
 These are good polar bear names:
 
@@ -14,10 +14,13 @@ These are good polar bear names:
 * George
 * Peter
 
-column 1 | column 2 
+testing | columns 
 --- | ---
 black | white
 hot | cold
+sweet | spicy
+wrong | right
+fire | ice
 
 <img src="polarbear.jpg" width="300" />
 
