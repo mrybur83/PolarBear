@@ -1,26 +1,22 @@
 ---
-title: "PolarBears"
+title: "SQL"
 output: html_document
 ---
 
-# Polar Bears Rock
-## They are big and strong
-### Intimidating predators
+## Filtering Rows and Columns
 
-These are good polar bear names:
+With SQL, you can filter columns with SELECT and ROWS with WHERE. Let's look at an example using the Lahman baseball database. First we need to load some packages
 
-* Joe
-* Tony
-* George
-* Peter
+```{r warning=FALSE, message=FALSE}
+library (Lahman)
+library (sqldf)
+```
+suppose we want to see homerun totals for the 1927 Yankees we could write...
 
-testing | columns 
---- | ---
-black | white
-hot | cold
-sweet | spicy
-wrong | right
-fire | ice
+```{r}
+query<- "SELECT playerID,yearID,teamID,HR FROM Batting
+WHERE teamID='NYA' and yearID=1927"
+sqldf(query)
 
-<img src="polarbear.jpg" width="300" />
+```
 
